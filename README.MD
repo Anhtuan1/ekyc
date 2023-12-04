@@ -9,8 +9,11 @@ To build your Python project into an executable (.exe) file, follow these steps:
 1. **Install PyInstaller:**
    ```bash
    pip install pyinstaller
-   Navigate to Your Project Directory:
+  
    ```
+
+Navigate to Your Project Directory:
+
    ```bash
    cd /path/to/your/project
    ```
@@ -27,7 +30,6 @@ Locate the Executable:
 After the build process is complete, find the standalone executable in the dist/ directory:
 
    ```css
-   Copy code
    /path/to/your/project
    ├── dist/
    │   └── main.exe
