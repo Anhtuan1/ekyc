@@ -23,7 +23,10 @@ Build the Executable:
    ```bash
    pyinstaller --onefile main.py
    ```
-
+   or
+   ```bash
+   pyinstaller --onefile --noconsole main.py
+   ```
 This command creates a standalone executable file in the dist/ directory.
 
 Locate the Executable:
